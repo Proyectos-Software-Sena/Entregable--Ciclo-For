@@ -12,7 +12,6 @@ Para garantizar el orden y el correcto seguimiento de tu progreso, este entregab
 3. **Regla de Commits (¡Crítico!):** Se requiere **un commit por cada ejercicio resuelto**. 
    * Formato esperado del mensaje: `feat: resuelve ejercicio X - [Breve descripción]` (Ej. `feat: resuelve ejercicio 1 - calculo de ventas`).
    * ⚠️ *Nota del instructor:* **Sin este requisito de commits, el entregable se considerará INVÁLIDO**, sin excepciones.
-4. **Restricción Técnica:** Para todos los ejercicios está permitido el uso de `Scanner` para pedir datos por consola, pero **solo puedes utilizar un (1) ciclo `for` por ejercicio**. No se permiten ciclos anidados (un `for` dentro de otro) ni el uso de `while` o `do-while`.
 
 ---
 
