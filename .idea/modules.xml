@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EjercicioFor/EjercicioFor.iml" filepath="$PROJECT_DIR$/EjercicioFor/EjercicioFor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosFor/EjerciciosFor.iml" filepath="$PROJECT_DIR$/EjerciciosFor/EjerciciosFor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Entregable--Ciclo-For.iml" filepath="$PROJECT_DIR$/.idea/Entregable--Ciclo-For.iml" />
+    </modules>
+  </component>
+</project>
