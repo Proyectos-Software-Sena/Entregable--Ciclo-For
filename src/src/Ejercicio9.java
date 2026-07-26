@@ -5,7 +5,6 @@ public class Ejercicio9 {
 
         int bacterias = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de bacterias: "));
         int catidadHoras = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de horas: "));
-        String mensaje = "";
 
         for (int i = 1; i <=catidadHoras; i++){
             bacterias = bacterias * 2;
