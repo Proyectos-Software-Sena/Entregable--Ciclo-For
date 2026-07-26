@@ -13,7 +13,7 @@ public class Ejercicio2 {
 
         do {
 
-            pesoPiezas = Integer.parseInt(JOptionPane.showInputDialog("ingrese el peso de la pieza: " + contador));
+            pesoPiezas = Integer.parseInt(JOptionPane.showInputDialog("ingrese el peso de la pieza (en gramos): " + contador));
 
             if (pesoPiezas < 100 || pesoPiezas > 120) {
                 defectuosas++;
