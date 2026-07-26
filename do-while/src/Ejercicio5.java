@@ -3,7 +3,7 @@ import javax.swing.*;
 public class Ejercicio5 {
     public static void main(String[] args) {
 
-        double montoAhorro, sumaAhorro;
+        double Ahorro, sumaAhorro;
         int meses, contador;
 
         contador = 1;
