@@ -1,0 +1,20 @@
+import javax.swing.JOptionPane;
+
+public class Ejercicio6 {
+    public static void main(String[] args) {
+        int cantidad = Integer.parseInt(JOptionPane.showInputDialog("¿Cuántos asistentes hay?"));
+        int menores = 0;
+        int adultos = 0;
+
+        for (int i = 1; i <= cantidad; i++) {
+            int edad = Integer.parseInt(JOptionPane.showInputDialog("Edad del asistente " + i + ":"));
+            if (edad < 18) {
+                menores++;
+            } else {
+                adultos++;
+            }
+        }
+
+        JOptionPane.showMessageDialog(null, "Menores: " + menores + " - Adultos: " + adultos);
+    }
+}
