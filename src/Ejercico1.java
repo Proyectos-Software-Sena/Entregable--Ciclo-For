@@ -11,6 +11,6 @@ public class Ejercico1 {
             double ventas = Double.parseDouble(JOptionPane.showInputDialog("ingrese el valorde la venta " + i + ":"));
             total = total + ventas ;
         }
-        JOptionPane.showMessageDialog(null,"el total de ventas del dia es :" + total);
+        JOptionPane.showMessageDialog(null,"el total de ventas del dia es : " + "$" + total);
     }
 }
