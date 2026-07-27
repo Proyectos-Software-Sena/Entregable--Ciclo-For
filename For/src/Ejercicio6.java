@@ -7,8 +7,7 @@ public class Ejercicio6 {
         int menores = 0;
         int adultos = 0;
         for(int i = 1; i <= cantidad; i++){
-            int edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la edad del asistente " + i));
-
+            int edad = Integer.parseInt(JOptionPane.showInputDialog("edad del asistente " + i));
             if(edad < 18){
                 menores++;
             } else {
