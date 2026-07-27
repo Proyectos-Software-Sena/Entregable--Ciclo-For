@@ -6,7 +6,7 @@ public class Ejercicio2 {
         int defectuosas = 0;
         int buenas = 0;
         for (int i = 1; i <= cantidad; i++) {
-            int peso = Integer.parseInt(JOptionPane.showInputDialog("ingrese el peso de la pieza"));
+            int peso = Integer.parseInt(JOptionPane.showInputDialog("ingrese ekkl peso de la pieza"));
             if (peso <= 100 || peso >= 120) {
                 defectuosas++;
             } else {
