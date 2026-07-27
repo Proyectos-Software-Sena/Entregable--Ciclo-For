@@ -15,6 +15,6 @@ public static void main(String[] args){
             mayor = grados;
         }
     }
-    JOptionPane.showMessageDialog(null,"la mayor temperatura fue: " + mayor);
+    JOptionPane.showMessageDialog(null,"la   n mayor temperatura fue: " + mayor);
 }
 }
