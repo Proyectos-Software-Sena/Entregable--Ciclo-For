@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Ejercicio4 {
-    
+
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             System.out.print("¿Cuántas calificaciones componen el módulo?: ");
@@ -22,4 +22,4 @@ public class Ejercicio4 {
             scanner.close();
         }
     }
-}
+
