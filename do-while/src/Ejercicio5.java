@@ -9,14 +9,14 @@ public class Ejercicio5 {
         sumaAhorro = 0;
         Ahorro = Double.parseDouble(JOptionPane.showInputDialog("Ingrese monto fijo a ahorrar cada mes: "));
 
-        for ( int contador = 1;
-              contador <= meses;
-              contador++){
+        for ( int i = 1;
+              i <= meses;
+              i++){
 
             sumaAhorro = sumaAhorro + Ahorro;
 
 
-            JOptionPane.showMessageDialog(null,"Mes" + contador + ": $" + sumaAhorro);
+            JOptionPane.showMessageDialog(null,"Mes" + i + ": $" + sumaAhorro);
 
         }
     }
