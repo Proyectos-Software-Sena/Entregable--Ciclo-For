@@ -11,7 +11,7 @@ public class ejercicio4 {
         for (int i = 1; i <= cantidadNotas; i++) {
 
             valorNota = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el valor de la nota " + i + "(0.0 a 5.0"));
-            
+
                 suma += valorNota;
 
         }
