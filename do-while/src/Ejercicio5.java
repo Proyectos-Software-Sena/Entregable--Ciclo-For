@@ -4,20 +4,20 @@ public class Ejercicio5 {
     public static void main(String[] args) {
 
         double Ahorro, sumaAhorro;
-        int meses, contador;
 
-        contador = 1;
+        int meses = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de meses de la proyección"));
         sumaAhorro = 0;
+        Ahorro = Double.parseDouble(JOptionPane.showInputDialog("Ingrese monto fijo a ahorrar cada mes: "));
 
+        for ( int contador = 1;
+              contador <= meses;
+              contador++){
 
-        meses = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de meses de la proyección"));
-        montoAhorro = Double.parseDouble(JOptionPane.showInputDialog("Ingrese monto fijo a ahorrar cada mes: "));
-        do {
-            sumaAhorro = sumaAhorro + montoAhorro;
-            contador++;
+            sumaAhorro = sumaAhorro + Ahorro;
+
 
             JOptionPane.showMessageDialog(null,"Mes" + contador + ": $" + sumaAhorro);
 
-        }while (contador <= meses);
+        }
     }
 }
