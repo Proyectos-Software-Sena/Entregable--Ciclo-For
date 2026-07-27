@@ -10,7 +10,7 @@ public class Ejercicio5 {
         String resultado = " PROYECCION DE AHORROS \n\n";
 
         for(int mes = 1; mes <= meses; mes++){
-            acumulado = acumulado + ahorro; 
+            acumulado = acumulado + ahorro;
             resultado = resultado + "Mes " + mes + ": $" + acumulado + "\n";
         }
 

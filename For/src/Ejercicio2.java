@@ -11,14 +11,12 @@ public class Ejercicio2 {
 
         for(int i = 1; i <= cantidad; i++){
             int peso = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el peso de la pieza " + i + " en gramos"));
-
             if(peso < 100 || peso > 120){
                 defectuosas++;
             } else {
                 aprobadas++;
             }
         }
-
         String resultado = "CONTROL DE CALIDAD \n" +
                 "Piezas aprobadas " + aprobadas + "\n" +
                 "Piezas defectuosas " + defectuosas;
