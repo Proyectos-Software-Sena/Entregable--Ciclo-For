@@ -5,15 +5,15 @@ public class Ejercicio2 {
 
         int cantidadpiezas, pesoPiezas, aprobadas, defectuosas,
 
-        cantidadPiezas = Integer.parseInt(JOptionPane.showInputDialog("ingrese la cantidad de piezas a revisar: "));
+                cantidadPiezas = Integer.parseInt(JOptionPane.showInputDialog("ingrese la cantidad de piezas a revisar: "));
         pesoPiezas = 0;
         aprobadas = 0;
         defectuosas = 0;
 
 
         for (int contador = 1;
-        contador <= cantidadPiezas;
-        contador++){
+             contador <= cantidadPiezas;
+             contador++){
 
             pesoPiezas = Integer.parseInt(JOptionPane.showInputDialog("ingrese el peso de la pieza (en gramos): " + contador));
 
