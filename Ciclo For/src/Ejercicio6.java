@@ -20,5 +20,5 @@ public class Ejercicio6 {
 
                 JOptionPane.showMessageDialog(null, "Menores de edad: " + menores + "\nAdultos: " + adultos);
             }
-        }
+    }
 
