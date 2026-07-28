@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Ejercicio4 {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Cantidad de notas: ");
+        int cantidad = sc.nextInt();
+
+        double suma = 0;
+
+        for(int i = 1; i <= cantidad; i++){
+
+            System.out.print("Nota " + i + ": ");
+            suma += sc.nextDouble();
+
+        }
+
+        double promedio = suma / cantidad;
+
+        System.out.println("Promedio: " + promedio);
+
+        if(promedio >= 3.0){
+            System.out.println("Estado: Aprobado");
+        }else{
+            System.out.println("Estado: No Aprobado");
+        }
+
+    }
+}
